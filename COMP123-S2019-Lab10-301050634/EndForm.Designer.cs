@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.BackButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // BackButton
+            // 
+            this.BackButton.Location = new System.Drawing.Point(324, 224);
+            this.BackButton.Name = "BackButton";
+            this.BackButton.Size = new System.Drawing.Size(87, 55);
+            this.BackButton.TabIndex = 0;
+            this.BackButton.Text = "<<";
+            this.BackButton.UseVisualStyleBackColor = true;
             // 
             // EndForm
             // 
@@ -36,6 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(782, 553);
+            this.Controls.Add(this.BackButton);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
@@ -49,5 +60,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button BackButton;
     }
 }
