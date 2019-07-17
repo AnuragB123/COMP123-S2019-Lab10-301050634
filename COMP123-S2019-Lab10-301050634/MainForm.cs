@@ -18,5 +18,12 @@ namespace COMP123_S2019_Lab10_301050634
         {
             InitializeComponent();
         }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            EndForm endForm = new EndForm();
+            endForm.Show();
+            this.Hide();
+        }
     }
 }
