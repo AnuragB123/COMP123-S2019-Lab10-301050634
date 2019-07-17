@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.StartLabel = new System.Windows.Forms.Label();
+            this.SplashTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // StartLabel
@@ -39,6 +41,10 @@
             this.StartLabel.Size = new System.Drawing.Size(373, 39);
             this.StartLabel.TabIndex = 1;
             this.StartLabel.Text = "Welcome to Start Form!";
+            // 
+            // SplashTimer
+            // 
+            this.SplashTimer.Interval = 3000;
             // 
             // StartForm
             // 
@@ -64,5 +70,6 @@
         #endregion
 
         private System.Windows.Forms.Label StartLabel;
+        private System.Windows.Forms.Timer SplashTimer;
     }
 }
