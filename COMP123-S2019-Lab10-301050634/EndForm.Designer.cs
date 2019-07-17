@@ -1,6 +1,6 @@
 ﻿namespace COMP123_S2019_Lab10_301050634
 {
-    partial class StartForm
+    partial class EndForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,50 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.StartLabel = new System.Windows.Forms.Label();
-            this.SplashTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // StartLabel
-            // 
-            this.StartLabel.AutoSize = true;
-            this.StartLabel.Location = new System.Drawing.Point(203, 257);
-            this.StartLabel.Name = "StartLabel";
-            this.StartLabel.Size = new System.Drawing.Size(373, 39);
-            this.StartLabel.TabIndex = 1;
-            this.StartLabel.Text = "Welcome to Start Form!";
-            // 
-            // SplashTimer
-            // 
-            this.SplashTimer.Interval = 3000;
-            this.SplashTimer.Tick += new System.EventHandler(this.SplashTimer_Tick);
-            // 
-            // StartForm
+            // EndForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 38F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(782, 553);
-            this.ControlBox = false;
-            this.Controls.Add(this.StartLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(7);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.MinimizeBox = false;
-            this.Name = "StartForm";
+            this.Name = "EndForm";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Start Form";
-            this.Load += new System.EventHandler(this.StartForm_Load);
+            this.Text = " ";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label StartLabel;
-        private System.Windows.Forms.Timer SplashTimer;
     }
 }
