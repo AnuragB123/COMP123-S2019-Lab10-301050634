@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace COMP123_S2019_Lab10_301050634
 {
     public partial class MainForm : Form
     {
+        /// <summary>
+        /// This is the constructor for the MainForm
+        /// </summary>
         public MainForm()
         {
             InitializeComponent();
