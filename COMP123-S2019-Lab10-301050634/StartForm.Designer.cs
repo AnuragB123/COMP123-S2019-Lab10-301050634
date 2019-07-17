@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.StartLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // StartLabel
+            // 
+            this.StartLabel.AutoSize = true;
+            this.StartLabel.Location = new System.Drawing.Point(203, 257);
+            this.StartLabel.Name = "StartLabel";
+            this.StartLabel.Size = new System.Drawing.Size(373, 39);
+            this.StartLabel.TabIndex = 1;
+            this.StartLabel.Text = "Welcome to Start Form!";
             // 
             // StartForm
             // 
@@ -37,6 +47,7 @@
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(782, 553);
             this.ControlBox = false;
+            this.Controls.Add(this.StartLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
@@ -46,9 +57,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartForm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label StartLabel;
     }
 }
