@@ -22,6 +22,7 @@ namespace COMP123_S2019_Lab10_301050634
 
         /// <summary>
         /// This is the event handler when the Start Form loads
+        /// The Splash Timer is Enabled
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -32,6 +33,7 @@ namespace COMP123_S2019_Lab10_301050634
 
         /// <summary>
         /// This is the event handler when the Splash Timer commenses
+        /// After 3 Miliseconds it transactions to the Main Form
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
